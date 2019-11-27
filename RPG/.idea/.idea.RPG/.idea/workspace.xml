@@ -35,9 +35,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayTests/with_positive_vertical_input.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayTests/with_positive_vertical_input.cs" />
       </list>
     </option>
   </component>
@@ -92,7 +92,7 @@
       <updated>1573745868595</updated>
       <workItem from="1573745869988" duration="5454000" />
       <workItem from="1574347077574" duration="2517000" />
-      <workItem from="1574866015783" duration="2995000" />
+      <workItem from="1574866015783" duration="3518000" />
     </task>
     <servers />
   </component>
