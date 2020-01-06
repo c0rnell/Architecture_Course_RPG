@@ -9,14 +9,24 @@
       <e p="Assets" t="Include">
         <e p="PlayTests" t="Include">
           <e p="a_moving_cude.cs" t="Include" />
+          <e p="moving_into_an_item.cs" t="Include" />
           <e p="PlayTests.asmdef" t="Include" />
           <e p="with_positive_vertical_input.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="Camera" t="Include">
+            <e p="CameraController.cs" t="Include" />
+          </e>
           <e p="IMover.cs" t="Include" />
           <e p="Inventory" t="Include">
             <e p="Inventory.cs" t="Include" />
+            <e p="InventoryUse.cs" t="Include" />
             <e p="Item.cs" t="Include" />
+            <e p="ItemComponent.cs" t="Include" />
+            <e p="ItemLogger.cs" t="Include" />
+            <e p="ItemRaycaster.cs" t="Include" />
+            <e p="UseAction.cs" t="Include" />
+            <e p="UseMode.cs" t="Include" />
           </e>
           <e p="IPlayerInput.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
@@ -24,6 +34,12 @@
           <e p="Player.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
           <e p="Scripts.asmdef" t="Include" />
+          <e p="UI" t="Include">
+            <e p="CrossHair.cs" t="Include" />
+            <e p="CrosshairDefinition.cs" t="Include" />
+            <e p="Hotbar.cs" t="Include" />
+            <e p="Slot.cs" t="Include" />
+          </e>
         </e>
         <e p="Tests" t="Include">
           <e p="NewTestScript.cs" t="Include" />

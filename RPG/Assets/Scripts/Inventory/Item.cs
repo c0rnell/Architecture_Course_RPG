@@ -3,8 +3,20 @@
 [RequireComponent(typeof(Collider))]
 public class Item : MonoBehaviour
 {
-    private bool m_WasPickedUp;
+    public UseAction[] Actions => m_Actions;
 
+    public CrosshairDefinition CrosshairDefinition => m_CrosshairDefinition;
+    public Sprite Icon => m_Icon;
+
+    [SerializeField] private Sprite m_Icon;
+    
+    [SerializeField]
+    private CrosshairDefinition m_CrosshairDefinition;
+    
+    [SerializeField] 
+    private UseAction[] m_Actions = new UseAction[0];
+
+    private bool m_WasPickedUp;
     private void OnTriggerEnter(Collider other)
     {
         if(m_WasPickedUp)

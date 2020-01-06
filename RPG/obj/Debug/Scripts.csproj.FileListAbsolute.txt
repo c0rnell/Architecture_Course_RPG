@@ -1,0 +1,2 @@
+D:\git\Achitecture_Course_RPG\RPG\obj\Debug\Scripts.csprojResolveAssemblyReference.cache
+D:\git\Achitecture_Course_RPG\RPG\obj\Debug\Scripts.csproj.CoreCompileInputs.cache

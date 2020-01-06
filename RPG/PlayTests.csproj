@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\PlayTests\a_moving_cude.cs" />
+     <Compile Include="Assets\PlayTests\moving_into_an_item.cs" />
      <Compile Include="Assets\PlayTests\with_positive_vertical_input.cs" />
      <None Include="Assets\PlayTests\PlayTests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">

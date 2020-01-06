@@ -56,14 +56,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
      <Compile Include="Assets\Scripts\IMover.cs" />
      <Compile Include="Assets\Scripts\IPlayerInput.cs" />
      <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Inventory\InventoryUse.cs" />
      <Compile Include="Assets\Scripts\Inventory\Item.cs" />
+     <Compile Include="Assets\Scripts\Inventory\ItemComponent.cs" />
+     <Compile Include="Assets\Scripts\Inventory\ItemLogger.cs" />
+     <Compile Include="Assets\Scripts\Inventory\ItemRaycaster.cs" />
+     <Compile Include="Assets\Scripts\Inventory\UseAction.cs" />
+     <Compile Include="Assets\Scripts\Inventory\UseMode.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
      <Compile Include="Assets\Scripts\NavMeshMover.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\UI\CrossHair.cs" />
+     <Compile Include="Assets\Scripts\UI\CrosshairDefinition.cs" />
+     <Compile Include="Assets\Scripts\UI\Hotbar.cs" />
+     <Compile Include="Assets\Scripts\UI\Slot.cs" />
      <None Include="Assets\Scripts\Scripts.asmdef" />
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/git/Achitecture_Course_RPG/RPG/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
