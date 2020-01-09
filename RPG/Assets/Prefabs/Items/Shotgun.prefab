@@ -65,8 +65,6 @@ MonoBehaviour:
     type: 2}
   m_Actions:
   - UseMode: 0
-    TargetComponent: {fileID: 613876179452482393}
-  - UseMode: 0
     TargetComponent: {fileID: 1055475890}
 --- !u!114 &613876179452482393
 MonoBehaviour:
@@ -97,6 +95,7 @@ MonoBehaviour:
   m_layerMask:
     serializedVersion: 2
     m_Bits: 1
+  m_Damage: 1
 --- !u!1001 &3259492175089237504
 PrefabInstance:
   m_ObjectHideFlags: 0

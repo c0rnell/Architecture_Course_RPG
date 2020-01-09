@@ -15,6 +15,11 @@
           <e p="Camera" t="Include">
             <e p="CameraController.cs" t="Include" />
           </e>
+          <e p="Entities" t="Include">
+            <e p="Entity.cs" t="Include" />
+            <e p="EntityAnimator.cs" t="Include" />
+            <e p="ITakeHits.cs" t="Include" />
+          </e>
           <e p="IMover.cs" t="Include" />
           <e p="Inventory" t="Include">
             <e p="Inventory.cs" t="Include" />

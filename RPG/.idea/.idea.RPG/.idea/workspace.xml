@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UseMode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ItemRaycaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/CrossHair.cs" root0="FORCE_HIGHLIGHTING" />
@@ -23,10 +24,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/CrosshairDefinition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/ITakeHits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NavMeshMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Hotbar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/EntityAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayTests/PlayTests.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UseAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayTests/a_moving_cude.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,7 +49,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemLogger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemRaycaster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryUse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/CrossHair.cs" />
@@ -59,6 +61,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Slot.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayTests/moving_into_an_item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemRaycaster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Entities/EntityAnimator.cs" />
       </list>
     </option>
   </component>
@@ -124,7 +129,7 @@
       <workItem from="1574956398940" duration="2701000" />
       <workItem from="1575894363102" duration="1849000" />
       <workItem from="1576160882549" duration="9441000" />
-      <workItem from="1578582433822" duration="6242000" />
+      <workItem from="1578582433822" duration="8069000" />
     </task>
     <servers />
   </component>
@@ -147,18 +152,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1578586357085">
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1578590343788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578586357085" />
+    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578590343788" />
     <state x="586" y="65" width="747" height="909" key="find.popup" timestamp="1578588426647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="65" width="747" height="909" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578588426647" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578585682236">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578590270564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578585682236" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578590270564" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
