@@ -106,6 +106,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -123,7 +124,7 @@
       <workItem from="1574956398940" duration="2701000" />
       <workItem from="1575894363102" duration="1849000" />
       <workItem from="1576160882549" duration="9441000" />
-      <workItem from="1578582433822" duration="2999000" />
+      <workItem from="1578582433822" duration="6242000" />
     </task>
     <servers />
   </component>
@@ -146,10 +147,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1578584331750">
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1578586357085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578584331750" />
+    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578586357085" />
+    <state x="586" y="65" width="747" height="909" key="find.popup" timestamp="1578588426647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="65" width="747" height="909" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578588426647" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578585682236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
