@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 79c45972363e0f547ae4941c094d8369, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: a8ef63bc58d390b4bbd16d526ffbe6da, type: 2}
 --- !u!1 &177648286 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: afb5e3cc9c947604d88cab29b8b9e349,
@@ -164,6 +164,8 @@ GameObject:
   - component: {fileID: 515591295}
   - component: {fileID: 515591294}
   - component: {fileID: 515591297}
+  - component: {fileID: 515591298}
+  - component: {fileID: 515591299}
   m_Layer: 0
   m_Name: Npc
   m_TagString: Untagged
@@ -206,7 +208,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515591293}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1691334, y: -0.207, z: -1.0178094}
+  m_LocalPosition: {x: 3.988, y: -0.207, z: -1.0178094}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 177648288}
@@ -225,6 +227,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb10e1fc0549c4f42abd9fe38510db14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &515591298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515591293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef002efcfd044f8bc0310dfd6ec9c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!195 &515591299
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515591293}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &597134085
 GameObject:
   m_ObjectHideFlags: 0

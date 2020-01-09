@@ -76,6 +76,14 @@
      <Compile Include="Assets\Scripts\NavMeshMover.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\StateMachine\Attack.cs" />
+     <Compile Include="Assets\Scripts\StateMachine\ChasePlayer.cs" />
+     <Compile Include="Assets\Scripts\StateMachine\Dead.cs" />
+     <Compile Include="Assets\Scripts\StateMachine\EntityStateMachine.cs" />
+     <Compile Include="Assets\Scripts\StateMachine\IState.cs" />
+     <Compile Include="Assets\Scripts\StateMachine\Idle.cs" />
+     <Compile Include="Assets\Scripts\StateMachine\StateMachine.cs" />
+     <Compile Include="Assets\Scripts\StateMachine\StateTransition.cs" />
      <Compile Include="Assets\Scripts\UI\CrossHair.cs" />
      <Compile Include="Assets\Scripts\UI\CrosshairDefinition.cs" />
      <Compile Include="Assets\Scripts\UI\Hotbar.cs" />

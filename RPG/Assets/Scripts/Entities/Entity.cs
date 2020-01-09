@@ -38,6 +38,12 @@ public class Entity : MonoBehaviour, ITakeHits
         OnDied?.Invoke();
     }
 
+    //[ContextMenuItem("TakeLethalDamage")]
+    private void TakeLethalDamage()
+    {
+        TakeHit(Health);
+    }
+
     // Update is called once per frame
     void Update()
     {

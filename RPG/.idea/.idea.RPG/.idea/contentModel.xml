@@ -7,6 +7,7 @@
       <e p="Assets" t="Include">
         <e p="PlayTests" t="Include">
           <e p="a_moving_cude.cs" t="Include" />
+          <e p="entity_state_machine.cs" t="Include" />
           <e p="moving_into_an_item.cs" t="Include" />
           <e p="PlayTests.asmdef" t="Include" />
           <e p="with_positive_vertical_input.cs" t="Include" />
@@ -37,6 +38,16 @@
           <e p="Player.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
           <e p="Scripts.asmdef" t="Include" />
+          <e p="StateMachine" t="Include">
+            <e p="Attack.cs" t="Include" />
+            <e p="ChasePlayer.cs" t="Include" />
+            <e p="Dead.cs" t="Include" />
+            <e p="EntityStateMachine.cs" t="Include" />
+            <e p="Idle.cs" t="Include" />
+            <e p="IState.cs" t="Include" />
+            <e p="StateMachine.cs" t="Include" />
+            <e p="StateTransition.cs" t="Include" />
+          </e>
           <e p="UI" t="Include">
             <e p="CrossHair.cs" t="Include" />
             <e p="CrosshairDefinition.cs" t="Include" />
@@ -45,7 +56,7 @@
           </e>
         </e>
         <e p="Tests" t="Include">
-          <e p="NewTestScript.cs" t="Include" />
+          <e p="base_state_machine.cs" t="Include" />
           <e p="Tests.asmdef" t="Include" />
         </e>
       </e>

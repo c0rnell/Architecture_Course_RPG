@@ -58,7 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Tests\NewTestScript.cs" />
+     <Compile Include="Assets\Tests\base_state_machine.cs" />
      <None Include="Assets\Tests\Tests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
  <HintPath>D:/UnityProjects/Architecture_Course_RPG/RPG/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
@@ -621,6 +621,12 @@
  <Reference Include="Boo.Lang">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f3/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Scripts.csproj">
+      <Project>{54AB8F18-E27E-31C2-2674-58F4C4B0D0F9}</Project>
+      <Name>Scripts</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
