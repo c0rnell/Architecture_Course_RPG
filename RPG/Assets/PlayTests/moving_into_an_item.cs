@@ -9,16 +9,23 @@ namespace a_player
 {
     public class moving_into_an_item
     {
-        [UnityTest]
-        public IEnumerator picks_up_and_equip_item()
+        private Player player;
+        private Item item;
+
+        [UnitySetUp]
+        public IEnumerator Init()
         {
             yield return Helpers.LoadItemTestScene();
             
-            var player = Helpers.GetPlayer();
+            player = Helpers.GetPlayer();
             
             player.PlayerInput.Vertical.Returns(1);
-            Item item = Object.FindObjectOfType<Item>();
-            
+            item = Object.FindObjectOfType<Item>();
+        }
+        
+        [UnityTest]
+        public IEnumerator picks_up_and_equip_item()
+        {
             Assert.AreNotSame(item, player.GetComponent<Inventory>().ActiveItem);
             
             yield return new WaitForSeconds(1f);
@@ -29,19 +36,27 @@ namespace a_player
         [UnityTest]
         public IEnumerator changes_crosshair_to_item_crosshair()
         {
-            yield return Helpers.LoadItemTestScene();
-            
-            var player = Helpers.GetPlayer();
             var croshair = Object.FindObjectOfType<CrossHair>();
-            
-            Item item = Object.FindObjectOfType<Item>();
             
             Assert.AreNotSame(item.CrosshairDefinition.Sprite, croshair.GetComponent<Image>().sprite);
 
             item.transform.position = player.transform.position;
-            yield return null;
+            yield return new WaitForFixedUpdate();
 
             Assert.AreEqual(item.CrosshairDefinition.Sprite, croshair.GetComponent<Image>().sprite);
+        }
+        
+        [UnityTest]
+        public IEnumerator changes_slot_1_icon_to_match_item_icon()
+        {
+            var hotbar = Object.FindObjectOfType<Hotbar>();
+            var slotOne = hotbar.GetComponentInChildren<Slot>();
+            Assert.AreNotSame(item.Icon, slotOne.IconImage.sprite);
+
+            item.transform.position = player.transform.position;
+            yield return new WaitForFixedUpdate();
+
+            Assert.AreEqual(item.Icon, slotOne.IconImage.sprite);
         }
     }
 }

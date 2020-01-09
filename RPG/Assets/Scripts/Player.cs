@@ -11,18 +11,24 @@ public class Player : MonoBehaviour
     {
         m_Mover = new Mover(this);
         m_Rotator = new Rotator(this);
+
+        PlayerInput.MoveModeTogglePressed += OnMoveModeToggle;
+    }
+
+    public void OnMoveModeToggle()
+    {
+        if (m_Mover is NavMeshMover)
+            m_Mover = new Mover(this);
+        else
+            m_Mover = new NavMeshMover(this);
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha1))
-            m_Mover = new Mover(this);
-        if(Input.GetKeyDown(KeyCode.Alpha2))
-            m_Mover = new NavMeshMover(this);
-        
         m_Mover.Tick();
         m_Rotator.Tick();
+        PlayerInput.Tick();
     }
 }
 

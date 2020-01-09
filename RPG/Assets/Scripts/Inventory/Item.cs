@@ -33,6 +33,7 @@ public class Item : MonoBehaviour
     private void OnValidate()
     {
         var mycollider = GetComponent<Collider>();
-        mycollider.isTrigger = true;
+        if(mycollider.isTrigger == false)
+            mycollider.isTrigger = true;
     }
 }
