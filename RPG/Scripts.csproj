@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\Entities\Entity.cs" />
      <Compile Include="Assets\Scripts\Entities\EntityAnimator.cs" />
      <Compile Include="Assets\Scripts\Entities\ITakeHits.cs" />
+     <Compile Include="Assets\Scripts\Entities\NpcLoot.cs" />
      <Compile Include="Assets\Scripts\IMover.cs" />
      <Compile Include="Assets\Scripts\IPlayerInput.cs" />
      <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />

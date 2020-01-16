@@ -22,9 +22,9 @@ namespace StateMachines
             m_StateMachine = new StateMachine();
             
             var idle = new Idle();
-            var chasePlayer = new ChasePlayer(m_NavMeshAgent);
+            var chasePlayer = new ChasePlayer(m_NavMeshAgent, m_Player);
             var attack = new Attack();
-            var dead = new Dead();
+            var dead = new Dead(m_Entity);
             
             m_StateMachine.AddTransition(idle, chasePlayer, () => DistanceFlat(m_NavMeshAgent.transform.position, m_Player.transform.position) < 5f);
             m_StateMachine.AddTransition(chasePlayer, attack, () => DistanceFlat(m_NavMeshAgent.transform.position, m_Player.transform.position) < 2f);

@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -63,11 +63,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 484
+    y: 643
     width: 993
-    height: 463
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    height: 304
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 20}
@@ -95,10 +95,10 @@ MonoBehaviour:
     y: 0
     width: 993
     height: 947
-  m_MinSize: {x: 201, y: 321}
-  m_MaxSize: {x: 4001, y: 8021}
+  m_MinSize: {x: 201, y: 342}
+  m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 42
+  controlID: 101
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -118,8 +118,8 @@ MonoBehaviour:
     y: 663
     width: 606
     height: 284
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -146,10 +146,10 @@ MonoBehaviour:
     y: 0
     width: 606
     height: 947
-  m_MinSize: {x: 101, y: 221}
-  m_MaxSize: {x: 4001, y: 8021}
+  m_MinSize: {x: 276, y: 192}
+  m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 118
+  controlID: 170
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,10 +218,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 534, y: 492}
+  m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 117
+  controlID: 100
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,9 +261,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 993
-    height: 484
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    height: 643
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 25}
   m_Panes:
   - {fileID: 25}
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 63
+  controlID: 122
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -315,15 +315,15 @@ MonoBehaviour:
     y: 0
     width: 606
     height: 663
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
   - {fileID: 17}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,8 +343,8 @@ MonoBehaviour:
     y: 0
     width: 321
     height: 415
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 26}
   m_Panes:
   - {fileID: 26}
@@ -427,7 +427,7 @@ MonoBehaviour:
     width: 605
     height: 642
   m_ViewDataDictionary: {fileID: 0}
-  m_TestTypeToolbarIndex: 1
+  m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
     m_Window: {fileID: 17}
     newResultList:
@@ -436,7 +436,7 @@ MonoBehaviour:
       name: RPG
       fullName: RPG
       resultStatus: 1
-      duration: 1.5045114
+      duration: 15.974517
       messages: 
       output: 
       stacktrace: 
@@ -452,7 +452,7 @@ MonoBehaviour:
       name: PlayTests.dll
       fullName: D:/UnityProjects/Architecture_Course_RPG/RPG/Library/ScriptAssemblies/PlayTests.dll
       resultStatus: 1
-      duration: 1.3978548
+      duration: 15.885328
       messages: 
       output: 
       stacktrace: 
@@ -468,7 +468,7 @@ MonoBehaviour:
       name: a_player
       fullName: a_player
       resultStatus: 1
-      duration: 2.7226896
+      duration: 14.678084
       messages: 
       output: 
       stacktrace: 
@@ -484,7 +484,7 @@ MonoBehaviour:
       name: moving_into_an_item
       fullName: a_player.moving_into_an_item
       resultStatus: 1
-      duration: 2.7044568
+      duration: 2.7802494
       messages: 
       output: 
       stacktrace: 
@@ -500,7 +500,7 @@ MonoBehaviour:
       name: changes_crosshair_to_item_crosshair
       fullName: a_player.moving_into_an_item.changes_crosshair_to_item_crosshair
       resultStatus: 1
-      duration: 1.130744
+      duration: 1.1727968
       messages: 
       output: 'Equiped item Shotgun
 
@@ -519,7 +519,7 @@ MonoBehaviour:
       name: changes_slot_1_icon_to_match_item_icon
       fullName: a_player.moving_into_an_item.changes_slot_1_icon_to_match_item_icon
       resultStatus: 1
-      duration: 0.2660973
+      duration: 0.272173
       messages: 
       output: 'Equiped item Shotgun
 
@@ -538,7 +538,7 @@ MonoBehaviour:
       name: picks_up_and_equip_item
       fullName: a_player.moving_into_an_item.picks_up_and_equip_item
       resultStatus: 1
-      duration: 1.2562041
+      duration: 1.282684
       messages: 
       output: 'Equiped item Shotgun
 
@@ -556,8 +556,8 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/a_player/[PlayTests][a_player.with_negative_mouse_X][suite]
       name: with_negative_mouse_X
       fullName: a_player.with_negative_mouse_X
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.7590187
       messages: 
       output: 
       stacktrace: 
@@ -572,8 +572,8 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/a_player/with_negative_mouse_X/[PlayTests][a_player.with_negative_mouse_X.turns_left]
       name: turns_left
       fullName: a_player.with_negative_mouse_X.turns_left
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.7326668
       messages: 
       output: 
       stacktrace: 
@@ -589,8 +589,8 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/a_player/[PlayTests][a_player.with_negative_vertical_input][suite]
       name: with_negative_vertical_input
       fullName: a_player.with_negative_vertical_input
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 5.2011356
       messages: 
       output: 
       stacktrace: 
@@ -605,8 +605,8 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/a_player/with_negative_vertical_input/[PlayTests][a_player.with_negative_vertical_input.moves_Back]
       name: moves_Back
       fullName: a_player.with_negative_vertical_input.moves_Back
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 5.174132
       messages: 
       output: 
       stacktrace: 
@@ -622,8 +622,8 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/a_player/[PlayTests][a_player.with_positive_mouse_X][suite]
       name: with_positive_mouse_X
       fullName: a_player.with_positive_mouse_X
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.7009722
       messages: 
       output: 
       stacktrace: 
@@ -638,8 +638,8 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/a_player/with_positive_mouse_X/[PlayTests][a_player.with_positive_mouse_X.turns_left]
       name: turns_left
       fullName: a_player.with_positive_mouse_X.turns_left
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.6780175
       messages: 
       output: 
       stacktrace: 
@@ -655,8 +655,8 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/a_player/[PlayTests][a_player.with_positive_vertical_input][suite]
       name: with_positive_vertical_input
       fullName: a_player.with_positive_vertical_input
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 5.211935
       messages: 
       output: 
       stacktrace: 
@@ -671,10 +671,14 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/a_player/with_positive_vertical_input/[PlayTests][a_player.with_positive_vertical_input.moves_Forward]
       name: moves_Forward
       fullName: a_player.with_positive_vertical_input.moves_Forward
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 5.1828375
       messages: 
-      output: 
+      output: 'Equiped item Cube
+
+        Equiped item Item
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -689,7 +693,7 @@ MonoBehaviour:
       name: state_machine
       fullName: state_machine
       resultStatus: 1
-      duration: 1.3531239
+      duration: 0.8451568
       messages: 
       output: 
       stacktrace: 
@@ -705,7 +709,7 @@ MonoBehaviour:
       name: entity_state_machine
       fullName: state_machine.entity_state_machine
       resultStatus: 1
-      duration: 1.324926
+      duration: 0.8109741
       messages: 
       output: 
       stacktrace: 
@@ -721,7 +725,7 @@ MonoBehaviour:
       name: start_in_idle_state
       fullName: state_machine.entity_state_machine.start_in_idle_state
       resultStatus: 1
-      duration: 0.7680053
+      duration: 0.3260487
       messages: 
       output: 'Changed to state StateMachines.Idle
 
@@ -748,7 +752,7 @@ MonoBehaviour:
       name: switches_to_chase_player_when_player_in_range
       fullName: state_machine.entity_state_machine.switches_to_chase_player_when_player_in_range
       resultStatus: 1
-      duration: 0.2435584
+      duration: 0.2032413
       messages: 
       output: 'Idle
 
@@ -780,7 +784,7 @@ MonoBehaviour:
       name: switches_to_dead_when_health_reaches_zero
       fullName: state_machine.entity_state_machine.switches_to_dead_when_health_reaches_zero
       resultStatus: 1
-      duration: 0.2384293
+      duration: 0.2511526
       messages: 
       output: 'Changed to state StateMachines.Idle
 
@@ -815,8 +819,8 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/[Tests][suite]
       name: Tests
       fullName: Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.326473
       messages: 
       output: 
       stacktrace: 
@@ -831,8 +835,8 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/Tests/[PlayTests][Tests.a_moving_cude][suite]
       name: a_moving_cude
       fullName: Tests.a_moving_cude
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2899065
       messages: 
       output: 
       stacktrace: 
@@ -847,8 +851,8 @@ MonoBehaviour:
       uniqueId: PlayTests.dll/Tests/a_moving_cude/[PlayTests][Tests.a_moving_cude.moving_forward_changes_position]
       name: moving_forward_changes_position
       fullName: Tests.a_moving_cude.moving_forward_changes_position
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2693314
       messages: 
       output: 
       stacktrace: 
@@ -860,12 +864,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1020
       parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.a_moving_cude][suite]
-    m_ResultText: state_machine (1.353s)
+    m_ResultText: entity_state_machine (0.811s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ffdbe88c
-      m_LastClickedID: -1930896385
+      m_SelectedIDs: 2500745b
+      m_LastClickedID: 1534328869
       m_ExpandedIDs: ffdbe88cfff239b29be955c29e8402c8e51fc1fc9f22200e229458357ffa5e3f2500745bf3fda86666601268c6831a6cffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -900,7 +904,7 @@ MonoBehaviour:
       name: RPG
       fullName: RPG
       resultStatus: 1
-      duration: 0.5781481
+      duration: 0.7781873
       messages: 
       output: 
       stacktrace: 
@@ -916,7 +920,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: D:/UnityProjects/Architecture_Course_RPG/RPG/Library/ScriptAssemblies/Tests.dll
       resultStatus: 1
-      duration: 0.4112951
+      duration: 0.6677793
       messages: 
       output: 
       stacktrace: 
@@ -932,7 +936,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 1
-      duration: 0.2987326
+      duration: 0.6479024
       messages: 
       output: 
       stacktrace: 
@@ -948,7 +952,7 @@ MonoBehaviour:
       name: base_state_machine
       fullName: Tests.base_state_machine
       resultStatus: 1
-      duration: 0.1854182
+      duration: 0.6343064
       messages: 
       output: 
       stacktrace: 
@@ -964,7 +968,7 @@ MonoBehaviour:
       name: initial_set_state_switches_to_state
       fullName: Tests.base_state_machine.initial_set_state_switches_to_state
       resultStatus: 1
-      duration: 0.0049964
+      duration: 0.5494923
       messages: 
       output: 'Changed to state Castle.Proxies.IStateProxy
 
@@ -983,7 +987,7 @@ MonoBehaviour:
       name: subsequent_set_state_switches_to_state
       fullName: Tests.base_state_machine.subsequent_set_state_switches_to_state
       resultStatus: 1
-      duration: 0.0152431
+      duration: 0.0072456
       messages: 
       output: 'Changed to state Castle.Proxies.IStateProxy
 
@@ -1005,7 +1009,7 @@ MonoBehaviour:
       name: transition_does_not_switches_state_when_condition_not_met
       fullName: Tests.base_state_machine.transition_does_not_switches_state_when_condition_not_met
       resultStatus: 1
-      duration: 0.0050144
+      duration: 0.0066612
       messages: 
       output: 'Changed to state Castle.Proxies.IStateProxy
 
@@ -1024,7 +1028,7 @@ MonoBehaviour:
       name: transition_does_not_switches_state_when_not_in_correct_source_state
       fullName: Tests.base_state_machine.transition_does_not_switches_state_when_not_in_correct_source_state
       resultStatus: 1
-      duration: 0.0102198
+      duration: 0.0043759
       messages: 
       output: 'Changed to state Castle.Proxies.IStateProxy
 
@@ -1043,7 +1047,7 @@ MonoBehaviour:
       name: transition_from_any_switches_state_when_condition_met
       fullName: Tests.base_state_machine.transition_from_any_switches_state_when_condition_met
       resultStatus: 1
-      duration: 0.0113387
+      duration: 0.0060806
       messages: 
       output: 'Changed to state Castle.Proxies.IStateProxy
 
@@ -1065,7 +1069,7 @@ MonoBehaviour:
       name: transition_switches_state_when_condition_met
       fullName: Tests.base_state_machine.transition_switches_state_when_condition_met
       resultStatus: 1
-      duration: 0.0081105
+      duration: 0.0063435
       messages: 
       output: 'Changed to state Castle.Proxies.IStateProxy
 
@@ -1082,17 +1086,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/Tests/[Tests][Tests.base_state_machine][suite]
-    m_ResultText: 'transition_does_not_switches_state_when_not_in_correct_source_state
-      (0.010s)
-
-      ---
-
-      Changed to state Castle.Proxies.IStateProxy'
+    m_ResultText: base_state_machine (0.634s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7b67528e
-      m_LastClickedID: -1907202181
+      m_SelectedIDs: 1ff24f5c
+      m_LastClickedID: 1548743199
       m_ExpandedIDs: 7ffa5e3f8359db411ff24f5c84b4705c7dc7445effffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1140,10 +1139,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 557
+    x: -32000
+    y: -31327
     width: 992
-    height: 442
+    height: 283
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -1151,7 +1150,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 674, y: 421}
+  m_TargetSize: {x: 419, y: 262}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1165,10 +1164,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -337
-    m_HBaseRangeMax: 337
-    m_VBaseRangeMin: -210.5
-    m_VBaseRangeMax: 210.5
+    m_HBaseRangeMin: -209.5
+    m_HBaseRangeMax: 209.5
+    m_VBaseRangeMin: -131
+    m_VBaseRangeMax: 131
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1187,9 +1186,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 992
-      height: 421
+      height: 262
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 496, y: 210.5}
+    m_Translation: {x: 496, y: 131}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1197,12 +1196,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -496
-      y: -210.5
+      y: -131
       width: 992
-      height: 421
+      height: 262
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 992, y: 442}
+  m_LastWindowPixelSize: {x: 992, y: 283}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
@@ -1300,7 +1299,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -154354
+  m_LastSelectedObjectID: -10314
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1322,8 +1321,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1314
-    y: 736
+    x: -30686
+    y: -31307
     width: 605
     height: 263
   m_ViewDataDictionary: {fileID: 0}
@@ -1374,8 +1373,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1314
-    y: 73
+    x: -30686
+    y: -31970
     width: 605
     height: 642
   m_ViewDataDictionary: {fileID: 0}
@@ -1412,8 +1411,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 993
-    y: 488
+    x: -31007
+    y: -31555
     width: 319
     height: 511
   m_ViewDataDictionary: {fileID: 0}
@@ -1441,7 +1440,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 7e450000
     m_LastClickedID: 17790
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000783800007a3800007c3800007e38000080380000823800008438000086380000883800008a3800008c3800008e38000090380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1466,10 +1465,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 30}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000098400000b4400000b6400000ba400000bc400000c0420000c44200002c6500003065000054670000486900008e690000907b0000
+    m_ExpandedIDs: ffffffff00000000783800007a3800007c3800007e38000080380000823800008438000086380000883800008a3800008c3800008e38000090380000ba380000bc380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1546,10 +1545,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73
+    x: -32000
+    y: -31970
     width: 992
-    height: 463
+    height: 622
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 6de209bac3199634d85c89b9fecc70db
@@ -1561,9 +1560,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.3516345, y: 0.13771415, z: 1.6686814}
+    m_Target: {x: 1.5873582, y: 0.9718121, z: -0.36048037}
     speed: 2
-    m_Value: {x: 1.3516345, y: 0.13771415, z: 1.6686814}
+    m_Value: {x: 1.5873582, y: 0.9718121, z: -0.36048037}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1609,13 +1608,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.115295276, y: -0.8645134, z: 0.231192, w: 0.43113282}
+    m_Target: {x: 0.101507135, y: 0.8883627, z: -0.23757046, w: 0.37958014}
     speed: 2
-    m_Value: {x: 0.11529518, y: -0.8645127, z: 0.2311918, w: 0.43113247}
+    m_Value: {x: 0.101506494, y: 0.8883571, z: -0.23756896, w: 0.37957776}
   m_Size:
-    m_Target: 10.494792
+    m_Target: 1.5452344
     speed: 2
-    m_Value: 10.494792
+    m_Value: 1.5452344
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1661,31 +1660,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 993
-    y: 73
+    x: -31007
+    y: -31970
     width: 319
     height: 394
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: dc64fdff5a67fdff266afdff4a6dfdff666dfdffb674fdff4677fdff7c7afdff987afdff527dfdff9e83fdff6c86fdff8089fdff9c89fdff568cfdff9c8ffdffb88ffdff7292fdffd495fdfff095fdfff49afdff6a9ffdff869ffdff44a2fdff38a5fdff54a5fdff12a8fdff42b6fdff68b6fdffb0bafdffe6befdff36c3fdffbcc7fdff0a11feffc64cfeff624dfefff291ffff5c92ffff7892ffff2a95ffff1e9affff889affff549cffff709cffffa29dffff7ea1ffff16a5ffff32a5ffff64a6ffffe2b2ffffbeb4ffffe8b9ffff3adafffffae2ffffb4420000104600004e4600002a52000060520000
+      m_SelectedIDs: 50e8ffff
+      m_LastClickedID: -6064
+      m_ExpandedIDs: d2d4ffffded4ffffb6d7ffffc6e4fffff0e5ffffe6e6ffff5ee7ffff70e7ffff7ee7ffff86e7ffff9ce7ffffb8e7ffffd4e7ffff50e8ffffb2eaffffceeaffff8af5ffff2ef8ffff72fbffff644000006a4000008c400000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Slot
-        m_OriginalName: Slot
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -10698
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 14}
       m_SearchString: 

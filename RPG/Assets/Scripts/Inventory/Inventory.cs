@@ -15,7 +15,6 @@ public class Inventory : MonoBehaviour
 
     public Item ActiveItem { get; private set; }
 
-
     private void Awake()
     {
         m_Items = new List<Item>();
@@ -28,12 +27,19 @@ public class Inventory : MonoBehaviour
         m_Items.Add(item);
         item.transform.SetParent(m_ItemRoot);
         ItemPickedUp?.Invoke(item);
+        item.WasPickedUp = true;
         
         Equip(item);
     }
 
     public void Equip(Item item)
     {
+        if (ActiveItem != null)
+        {
+            ActiveItem.transform.SetParent(m_ItemRoot);
+            ActiveItem.gameObject.SetActive(false);
+        }
+        
         Debug.Log($"Equiped item {item.gameObject.name}");
         item.transform.SetParent(m_RightHand);
         item.transform.localPosition = Vector3.zero;

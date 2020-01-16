@@ -19,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/IState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/NpcLoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/Idle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/ChasePlayer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,13 +62,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryUse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/CrossHair.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Hotbar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Slot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemRaycaster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Entities/EntityAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/IState.cs" />
@@ -77,9 +76,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/Attack.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayTests/entity_state_machine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/EntityStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Tests/base_state_machine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/Dead.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/EntityStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/ChasePlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Entities/NpcLoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
       </list>
     </option>
   </component>
@@ -146,6 +150,7 @@
       <workItem from="1575894363102" duration="1849000" />
       <workItem from="1576160882549" duration="9441000" />
       <workItem from="1578582433822" duration="14085000" />
+      <workItem from="1578654326214" duration="3716000" />
     </task>
     <servers />
   </component>
@@ -168,10 +173,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1578591743977">
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1578654444409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578591743977" />
+    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578654444409" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1578592501118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
