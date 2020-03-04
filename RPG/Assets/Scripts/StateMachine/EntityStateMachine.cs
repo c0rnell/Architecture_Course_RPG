@@ -10,6 +10,7 @@ namespace StateMachines
         private StateMachine m_StateMachine;
         private NavMeshAgent m_NavMeshAgent;
         private Entity m_Entity;
+        public event Action<IState> OnEntityStateChanged;
 
         public Type CurrentStateType => m_StateMachine.CurrentState.GetType();
 
@@ -20,6 +21,7 @@ namespace StateMachines
             m_Entity = GetComponent<Entity>();
             
             m_StateMachine = new StateMachine();
+            m_StateMachine.OnStateChanged += (state) => OnEntityStateChanged?.Invoke(state);
             
             var idle = new Idle();
             var chasePlayer = new ChasePlayer(m_NavMeshAgent, m_Player);

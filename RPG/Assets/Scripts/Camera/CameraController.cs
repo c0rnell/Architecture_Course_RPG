@@ -6,6 +6,9 @@ using UnityEngine;
 
         private void Update()
         {
+            if (Pause.Active)
+                return;
+            
             float mouseRotation = Input.GetAxis("Mouse Y");
             m_tilt = Mathf.Clamp(m_tilt - mouseRotation, -15f, 15f);
             

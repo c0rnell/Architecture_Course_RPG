@@ -38,7 +38,7 @@ public class Entity : MonoBehaviour, ITakeHits
         OnDied?.Invoke();
     }
 
-    //[ContextMenuItem("TakeLethalDamage")]
+    [ContextMenu("TakeLethalDamage")]
     private void TakeLethalDamage()
     {
         TakeHit(Health);

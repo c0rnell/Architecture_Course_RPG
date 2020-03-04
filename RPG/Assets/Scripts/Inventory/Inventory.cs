@@ -14,6 +14,7 @@ public class Inventory : MonoBehaviour
     private Transform m_ItemRoot;
 
     public Item ActiveItem { get; private set; }
+    public List<Item> Items => m_Items;
 
     private void Awake()
     {

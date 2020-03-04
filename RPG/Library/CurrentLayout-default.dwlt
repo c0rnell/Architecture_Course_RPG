@@ -63,9 +63,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 643
+    y: 577
     width: 993
-    height: 304
+    height: 370
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 342}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 101
+  controlID: 36
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 192}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 170
+  controlID: 150
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 100
+  controlID: 149
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,7 +261,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 993
-    height: 643
+    height: 577
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 25}
@@ -270,7 +270,7 @@ MonoBehaviour:
   - {fileID: 22}
   - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 122
+  controlID: 128
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,8 +343,8 @@ MonoBehaviour:
     y: 0
     width: 321
     height: 415
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 26}
   m_Panes:
   - {fileID: 26}
@@ -436,7 +436,7 @@ MonoBehaviour:
       name: RPG
       fullName: RPG
       resultStatus: 1
-      duration: 15.974517
+      duration: 15.853649
       messages: 
       output: 
       stacktrace: 
@@ -452,7 +452,7 @@ MonoBehaviour:
       name: PlayTests.dll
       fullName: D:/UnityProjects/Architecture_Course_RPG/RPG/Library/ScriptAssemblies/PlayTests.dll
       resultStatus: 1
-      duration: 15.885328
+      duration: 15.772366
       messages: 
       output: 
       stacktrace: 
@@ -468,7 +468,7 @@ MonoBehaviour:
       name: a_player
       fullName: a_player
       resultStatus: 1
-      duration: 14.678084
+      duration: 14.525077
       messages: 
       output: 
       stacktrace: 
@@ -484,7 +484,7 @@ MonoBehaviour:
       name: moving_into_an_item
       fullName: a_player.moving_into_an_item
       resultStatus: 1
-      duration: 2.7802494
+      duration: 2.697053
       messages: 
       output: 
       stacktrace: 
@@ -500,7 +500,7 @@ MonoBehaviour:
       name: changes_crosshair_to_item_crosshair
       fullName: a_player.moving_into_an_item.changes_crosshair_to_item_crosshair
       resultStatus: 1
-      duration: 1.1727968
+      duration: 1.1980067
       messages: 
       output: 'Equiped item Shotgun
 
@@ -519,7 +519,7 @@ MonoBehaviour:
       name: changes_slot_1_icon_to_match_item_icon
       fullName: a_player.moving_into_an_item.changes_slot_1_icon_to_match_item_icon
       resultStatus: 1
-      duration: 0.272173
+      duration: 0.2350983
       messages: 
       output: 'Equiped item Shotgun
 
@@ -538,7 +538,7 @@ MonoBehaviour:
       name: picks_up_and_equip_item
       fullName: a_player.moving_into_an_item.picks_up_and_equip_item
       resultStatus: 1
-      duration: 1.282684
+      duration: 1.2144781
       messages: 
       output: 'Equiped item Shotgun
 
@@ -557,7 +557,7 @@ MonoBehaviour:
       name: with_negative_mouse_X
       fullName: a_player.with_negative_mouse_X
       resultStatus: 1
-      duration: 0.7590187
+      duration: 0.6866326
       messages: 
       output: 
       stacktrace: 
@@ -573,7 +573,7 @@ MonoBehaviour:
       name: turns_left
       fullName: a_player.with_negative_mouse_X.turns_left
       resultStatus: 1
-      duration: 0.7326668
+      duration: 0.6622954
       messages: 
       output: 
       stacktrace: 
@@ -590,7 +590,7 @@ MonoBehaviour:
       name: with_negative_vertical_input
       fullName: a_player.with_negative_vertical_input
       resultStatus: 1
-      duration: 5.2011356
+      duration: 5.213744
       messages: 
       output: 
       stacktrace: 
@@ -606,7 +606,7 @@ MonoBehaviour:
       name: moves_Back
       fullName: a_player.with_negative_vertical_input.moves_Back
       resultStatus: 1
-      duration: 5.174132
+      duration: 5.190594
       messages: 
       output: 
       stacktrace: 
@@ -623,7 +623,7 @@ MonoBehaviour:
       name: with_positive_mouse_X
       fullName: a_player.with_positive_mouse_X
       resultStatus: 1
-      duration: 0.7009722
+      duration: 0.7231733
       messages: 
       output: 
       stacktrace: 
@@ -639,7 +639,7 @@ MonoBehaviour:
       name: turns_left
       fullName: a_player.with_positive_mouse_X.turns_left
       resultStatus: 1
-      duration: 0.6780175
+      duration: 0.6706039
       messages: 
       output: 
       stacktrace: 
@@ -656,7 +656,7 @@ MonoBehaviour:
       name: with_positive_vertical_input
       fullName: a_player.with_positive_vertical_input
       resultStatus: 1
-      duration: 5.211935
+      duration: 5.182711
       messages: 
       output: 
       stacktrace: 
@@ -672,7 +672,7 @@ MonoBehaviour:
       name: moves_Forward
       fullName: a_player.with_positive_vertical_input.moves_Forward
       resultStatus: 1
-      duration: 5.1828375
+      duration: 5.157769
       messages: 
       output: 'Equiped item Cube
 
@@ -693,7 +693,7 @@ MonoBehaviour:
       name: state_machine
       fullName: state_machine
       resultStatus: 1
-      duration: 0.8451568
+      duration: 0.963071
       messages: 
       output: 
       stacktrace: 
@@ -709,7 +709,7 @@ MonoBehaviour:
       name: entity_state_machine
       fullName: state_machine.entity_state_machine
       resultStatus: 1
-      duration: 0.8109741
+      duration: 0.9327349
       messages: 
       output: 
       stacktrace: 
@@ -725,7 +725,7 @@ MonoBehaviour:
       name: start_in_idle_state
       fullName: state_machine.entity_state_machine.start_in_idle_state
       resultStatus: 1
-      duration: 0.3260487
+      duration: 0.3537685
       messages: 
       output: 'Changed to state StateMachines.Idle
 
@@ -752,9 +752,11 @@ MonoBehaviour:
       name: switches_to_chase_player_when_player_in_range
       fullName: state_machine.entity_state_machine.switches_to_chase_player_when_player_in_range
       resultStatus: 1
-      duration: 0.2032413
+      duration: 0.2933857
       messages: 
       output: 'Idle
+
+        Idle
 
         Changed to state StateMachines.Idle
 
@@ -784,7 +786,7 @@ MonoBehaviour:
       name: switches_to_dead_when_health_reaches_zero
       fullName: state_machine.entity_state_machine.switches_to_dead_when_health_reaches_zero
       resultStatus: 1
-      duration: 0.2511526
+      duration: 0.2636042
       messages: 
       output: 'Changed to state StateMachines.Idle
 
@@ -820,7 +822,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 1
-      duration: 0.326473
+      duration: 0.2553581
       messages: 
       output: 
       stacktrace: 
@@ -836,7 +838,7 @@ MonoBehaviour:
       name: a_moving_cude
       fullName: Tests.a_moving_cude
       resultStatus: 1
-      duration: 0.2899065
+      duration: 0.2294491
       messages: 
       output: 
       stacktrace: 
@@ -852,7 +854,7 @@ MonoBehaviour:
       name: moving_forward_changes_position
       fullName: Tests.a_moving_cude.moving_forward_changes_position
       resultStatus: 1
-      duration: 0.2693314
+      duration: 0.2121513
       messages: 
       output: 
       stacktrace: 
@@ -864,7 +866,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1020
       parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.a_moving_cude][suite]
-    m_ResultText: entity_state_machine (0.811s)
+    m_ResultText: entity_state_machine (0.933s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -1139,10 +1141,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -32000
-    y: -31327
+    x: 0
+    y: 650
     width: 992
-    height: 283
+    height: 349
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -1150,7 +1152,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 419, y: 262}
+  m_TargetSize: {x: 525, y: 328}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1164,10 +1166,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -209.5
-    m_HBaseRangeMax: 209.5
-    m_VBaseRangeMin: -131
-    m_VBaseRangeMax: 131
+    m_HBaseRangeMin: -262.5
+    m_HBaseRangeMax: 262.5
+    m_VBaseRangeMin: -164
+    m_VBaseRangeMax: 164
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1186,9 +1188,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 992
-      height: 262
+      height: 328
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 496, y: 131}
+    m_Translation: {x: 496, y: 164}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1196,12 +1198,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -496
-      y: -131
+      y: -164
       width: 992
-      height: 262
+      height: 328
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 992, y: 283}
+  m_LastWindowPixelSize: {x: 992, y: 349}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
@@ -1299,7 +1301,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -10314
+  m_LastSelectedObjectID: -31394
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1321,8 +1323,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -30686
-    y: -31307
+    x: 1314
+    y: 736
     width: 605
     height: 263
   m_ViewDataDictionary: {fileID: 0}
@@ -1349,8 +1351,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1019
-    height: 463
+    width: 992
+    height: 469
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &23
 MonoBehaviour:
@@ -1373,8 +1375,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -30686
-    y: -31970
+    x: 1314
+    y: 73
     width: 605
     height: 642
   m_ViewDataDictionary: {fileID: 0}
@@ -1411,8 +1413,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -31007
-    y: -31555
+    x: 993
+    y: 488
     width: 319
     height: 511
   m_ViewDataDictionary: {fileID: 0}
@@ -1431,16 +1433,17 @@ MonoBehaviour:
     m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
-  m_LastFolders: []
+  m_LastFolders:
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\UnityProjects\Architecture_Course_RPG\RPG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7e450000
-    m_LastClickedID: 17790
-    m_ExpandedIDs: 00000000783800007a3800007c3800007e38000080380000823800008438000086380000883800008a3800008c3800008e38000090380000
+    m_SelectedIDs: f8380000
+    m_LastClickedID: 14584
+    m_ExpandedIDs: 00000000523900005439000056390000583900005a3900005c3900005e39000060390000623900006439000066390000683900006a3900006c3900006e390000703900007239000074390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1465,10 +1468,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 30}
+    scrollPos: {x: 0, y: 314}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000783800007a3800007c3800007e38000080380000823800008438000086380000883800008a3800008c3800008e38000090380000ba380000bc380000
+    m_ExpandedIDs: ffffffff00000000523900005439000056390000583900005a3900005c3900005e390000603900006239000064390000683900006a3900006c3900006e3900007039000072390000b2390000b8390000bc390000d63a0000fa3a000076550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1495,7 +1498,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1545,24 +1548,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -32000
-    y: -31970
+    x: 0
+    y: 73
     width: 992
-    height: 622
+    height: 556
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 6de209bac3199634d85c89b9fecc70db
   m_Gizmos: 1
   m_SceneIsLit: 0
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.5873582, y: 0.9718121, z: -0.36048037}
+    m_Target: {x: 229.41724, y: 165.69392, z: -56.4375}
     speed: 2
-    m_Value: {x: 1.5873582, y: 0.9718121, z: -0.36048037}
+    m_Value: {x: 229.41724, y: 165.69392, z: -56.4375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1590,7 +1593,7 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -1598,7 +1601,7 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -1608,20 +1611,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.101507135, y: 0.8883627, z: -0.23757046, w: 0.37958014}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.101506494, y: 0.8883571, z: -0.23756896, w: 0.37957776}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.5452344
+    m_Target: 345.64468
     speed: 2
-    m_Value: 1.5452344
+    m_Value: 345.64468
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_SpeedNormalized: 0.49748743
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1632,7 +1635,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.00041824492, y: 0.9961867, z: -0.0871983, w: 0.004781983}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1660,31 +1663,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -31007
-    y: -31970
+    x: 993
+    y: 73
     width: 319
     height: 394
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 50e8ffff
-      m_LastClickedID: -6064
-      m_ExpandedIDs: d2d4ffffded4ffffb6d7ffffc6e4fffff0e5ffffe6e6ffff5ee7ffff70e7ffff7ee7ffff86e7ffff9ce7ffffb8e7ffffd4e7ffff50e8ffffb2eaffffceeaffff8af5ffff2ef8ffff72fbffff644000006a4000008c400000
+      m_SelectedIDs: eeaeffff
+      m_LastClickedID: -20754
+      m_ExpandedIDs: 5e85ffff8e8effff20adffffeeaeffff0cc8ffff0ec8ffffc8c8ffff72fbfffff4ffffffd033000008340000ee700000f4750000fc7600005e820000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: LootItemHolder
+        m_OriginalName: LootItemHolder
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 13264
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 14}
       m_SearchString: 

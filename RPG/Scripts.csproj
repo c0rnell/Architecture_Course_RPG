@@ -71,6 +71,8 @@
      <Compile Include="Assets\Scripts\Inventory\ItemComponent.cs" />
      <Compile Include="Assets\Scripts\Inventory\ItemLogger.cs" />
      <Compile Include="Assets\Scripts\Inventory\ItemRaycaster.cs" />
+     <Compile Include="Assets\Scripts\Inventory\LootItemHolder.cs" />
+     <Compile Include="Assets\Scripts\Inventory\LootSystem.cs" />
      <Compile Include="Assets\Scripts\Inventory\UseAction.cs" />
      <Compile Include="Assets\Scripts\Inventory\UseMode.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
@@ -81,6 +83,7 @@
      <Compile Include="Assets\Scripts\StateMachine\ChasePlayer.cs" />
      <Compile Include="Assets\Scripts\StateMachine\Dead.cs" />
      <Compile Include="Assets\Scripts\StateMachine\EntityStateMachine.cs" />
+     <Compile Include="Assets\Scripts\StateMachine\GameStateMachine.cs" />
      <Compile Include="Assets\Scripts\StateMachine\IState.cs" />
      <Compile Include="Assets\Scripts\StateMachine\Idle.cs" />
      <Compile Include="Assets\Scripts\StateMachine\StateMachine.cs" />
@@ -88,10 +91,18 @@
      <Compile Include="Assets\Scripts\UI\CrossHair.cs" />
      <Compile Include="Assets\Scripts\UI\CrosshairDefinition.cs" />
      <Compile Include="Assets\Scripts\UI\Hotbar.cs" />
+     <Compile Include="Assets\Scripts\UI\PauseCanvas.cs" />
+     <Compile Include="Assets\Scripts\UI\RestartButton.cs" />
      <Compile Include="Assets\Scripts\UI\Slot.cs" />
      <None Include="Assets\Scripts\Scripts.asmdef" />
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/UnityProjects/Architecture_Course_RPG/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Addressables">
+ <HintPath>D:/UnityProjects/Architecture_Course_RPG/RPG/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ResourceManager">
+ <HintPath>D:/UnityProjects/Architecture_Course_RPG/RPG/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/UnityProjects/Architecture_Course_RPG/RPG/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>

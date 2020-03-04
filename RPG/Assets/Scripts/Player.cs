@@ -4,7 +4,12 @@ public class Player : MonoBehaviour
 {
     public IPlayerInput PlayerInput { get; set; } = new PlayerInput();
 
+    public float RotateSpeed => m_RotateSpeed;
+
     private IMover m_Mover;
+
+    [SerializeField]
+    private float m_RotateSpeed;
     private Rotator m_Rotator;
 
     private void Awake()
@@ -26,6 +31,9 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if(Pause.Active)
+            return;
+        
         m_Mover.Tick();
         m_Rotator.Tick();
         PlayerInput.Tick();
@@ -43,7 +51,7 @@ public class Rotator
 
     public void Tick()
     {
-        var rotation = new Vector3(0, m_Player.PlayerInput.MouseX, 0);
+        var rotation = new Vector3(0, m_Player.PlayerInput.MouseX * m_Player.RotateSpeed, 0);
         m_Player.transform.Rotate(rotation);
     }
 }

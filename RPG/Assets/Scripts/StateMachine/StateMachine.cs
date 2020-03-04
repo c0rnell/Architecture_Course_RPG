@@ -11,6 +11,8 @@ namespace StateMachines
         private List<StateTransition> m_AnyStateTransitions = new List<StateTransition>();
         private IState m_CurrentState;
         public IState CurrentState => m_CurrentState;
+        
+        public event Action<IState> OnStateChanged;
         public void AddTransition(IState from, IState to, Func<bool> condition)
         {
             var transition = new StateTransition(from, to, condition);
@@ -33,6 +35,7 @@ namespace StateMachines
             m_CurrentState = state;
             Debug.Log($"Changed to state {state}");
             m_CurrentState.OnEnter();
+            OnStateChanged?.Invoke(m_CurrentState);
         }
 
         public void Tick()
