@@ -1,5 +1,6 @@
 using System.Collections;
 using a_player;
+using NSubstitute;
 using NUnit.Framework;
 using StateMachines;
 using UnityEngine;
@@ -15,6 +16,8 @@ namespace state_machine
         [UnitySetUp]
         public IEnumerator Init()
         {
+            PlayerInput.Instance = Substitute.For<IPlayerInput>();
+            
             yield return Helpers.LoadEntitySTateMachineTestsScene();
             player = Helpers.GetPlayer();
             

@@ -15,11 +15,13 @@ namespace a_player
         [UnitySetUp]
         public IEnumerator Init()
         {
+            PlayerInput.Instance = Substitute.For<IPlayerInput>();
+            
             yield return Helpers.LoadItemTestScene();
             
             player = Helpers.GetPlayer();
             
-            player.PlayerInput.Vertical.Returns(1);
+            PlayerInput.Instance.Vertical.Returns(1);
             item = Object.FindObjectOfType<Item>();
         }
         

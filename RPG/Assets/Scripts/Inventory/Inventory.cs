@@ -46,6 +46,7 @@ public class Inventory : MonoBehaviour
         item.transform.localPosition = Vector3.zero;
         item.transform.localRotation = Quaternion.identity;
         ActiveItem = item;
+        ActiveItem.gameObject.SetActive(true);
         ActiveItemChange?.Invoke(ActiveItem);
     }
 

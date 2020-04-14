@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42c970b6-a4ee-4906-ba52-d642327eee00" name="Default Changelist" comment="" />
+    <list default="true" id="42c970b6-a4ee-4906-ba52-d642327eee00" name="Default Changelist" comment="Playe pasue state">
+      <changelist_data />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,49 +13,56 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryUse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/StateTransition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UseMode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ItemRaycaster.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseCanvas.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/IState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/NpcLoot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/Idle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/ChasePlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/CrossHair.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/Attack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Slot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/StateMachine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/Dead.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/EntityStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Tests/base_state_machine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/CrosshairDefinition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/ITakeHits.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/LootItemHolder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NavMeshMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayTests/entity_state_machine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/RestartButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Hotbar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/EntityAnimator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayTests/PlayTests.asmdef" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UseAction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayTests/a_moving_cude.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayTests/with_positive_vertical_input.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayTests/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/UnityInstalls/2019.3.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rotator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PlayButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayTests/moving_into_an_item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayTests/PlayTests.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayTests/a_moving_cude.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayTests/with_positive_vertical_input.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayTests/entity_state_machine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/ChasePlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/Idle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/Dead.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/IState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/EntityStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/Attack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/base_state_machine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.13/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/StateTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayTests/game_state_machine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ItemComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ItemLogger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/LootSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UseAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryUse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ItemRaycaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachine/StateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UseMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/LootItemHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/LootSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/ITakeHits.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/EntityAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Entities/NpcLoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/CrosshairDefinition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NavMeshMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/CrossHair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Slot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseCanvas.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Hotbar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/RestartButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,23 +70,16 @@
         <option value="$PROJECT_DIR$/Assets/Tests/NewTestScript.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayTests/a_moving_cude.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayTests/a_player_with_positive_vertical_input.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemLogger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryUse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/CrossHair.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Hotbar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Slot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemRaycaster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Entities/EntityAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/IState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/Idle.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayTests/with_positive_vertical_input.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayTests/moving_into_an_item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/Attack.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayTests/entity_state_machine.cs" />
         <option value="$PROJECT_DIR$/Assets/Tests/base_state_machine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/Dead.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/ChasePlayer.cs" />
@@ -86,17 +88,29 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/EntityStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Entities/NpcLoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Entities/LootSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/LootItemHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/LootSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/RestartButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PausePane;.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PausePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PauseCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rotator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Hotbar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayTests/Helpers.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayTests/entity_state_machine.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayTests/moving_into_an_item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayTests/with_positive_vertical_input.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayTests/game_state_machine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" />
       </list>
     </option>
   </component>
@@ -115,9 +129,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -126,10 +146,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="14716">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="14716" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -165,6 +185,7 @@
       <workItem from="1578582433822" duration="14085000" />
       <workItem from="1578654326214" duration="3716000" />
       <workItem from="1579189869531" duration="10634000" />
+      <workItem from="1586854181156" duration="6964000" />
     </task>
     <servers />
   </component>
@@ -187,86 +208,109 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1579590797437">
+    <state width="481" height="466" key="DebuggerActiveHint" timestamp="1586857284997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="481" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586857284997" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797437" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1579590797437">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797437" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1579590797437">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797437" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1579590797437">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797437" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579590797437">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797437" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579590797437">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797437" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579590797437">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797437" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579590797437">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797437" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1579590797438">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797438" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1579590797438">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797438" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1579590797438">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797438" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1579590797438">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797438" />
-    <state width="1877" height="348" key="GridCell.Tab.3.bottom" timestamp="1579590797438">
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.3.bottom" timestamp="1586861357730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797438" />
-    <state width="1877" height="348" key="GridCell.Tab.3.center" timestamp="1579590797438">
+    <state width="1877" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357730" />
+    <state width="1877" height="348" key="GridCell.Tab.3.center" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797438" />
-    <state width="1877" height="348" key="GridCell.Tab.3.left" timestamp="1579590797438">
+    <state width="1877" height="348" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.3.left" timestamp="1586861357729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797438" />
-    <state width="1877" height="348" key="GridCell.Tab.3.right" timestamp="1579590797438">
+    <state width="1877" height="348" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357729" />
+    <state width="1877" height="348" key="GridCell.Tab.3.right" timestamp="1586861357730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579590797438" />
-    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1579543189510">
+    <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586861357730" />
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1586860492895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579543189510" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1578592501118">
+    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586860492895" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1586855295373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578592501118" />
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586855295373" />
     <state x="586" y="65" width="747" height="909" key="find.popup" timestamp="1578588426647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="65" width="747" height="909" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1578588426647" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579544304069">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586858370387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1579544304069" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1586858370387" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
