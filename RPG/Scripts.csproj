@@ -93,10 +93,13 @@
      <Compile Include="Assets\Scripts\UI\CrossHair.cs" />
      <Compile Include="Assets\Scripts\UI\CrosshairDefinition.cs" />
      <Compile Include="Assets\Scripts\UI\Hotbar.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\UIInventoryPanel.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\UIInventorySlot.cs" />
      <Compile Include="Assets\Scripts\UI\PauseCanvas.cs" />
      <Compile Include="Assets\Scripts\UI\PlayButton.cs" />
      <Compile Include="Assets\Scripts\UI\RestartButton.cs" />
      <Compile Include="Assets\Scripts\UI\Slot.cs" />
+     <Compile Include="Assets\Scripts\UI\UIBinding.cs" />
      <None Include="Assets\Scripts\Scripts.asmdef" />
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/UnityProjects/Home/Architecture_Course_RPG/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

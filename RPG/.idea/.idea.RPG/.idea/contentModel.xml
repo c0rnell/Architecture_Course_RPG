@@ -8,8 +8,11 @@
           <e p="entity_state_machine.cs" t="Include" />
           <e p="game_state_machine.cs" t="Include" />
           <e p="Helpers.cs" t="Include" />
+          <e p="Inventory.cs" t="Include" />
+          <e p="inventory_panel.cs" t="Include" />
           <e p="moving_into_an_item.cs" t="Include" />
           <e p="PlayTests.asmdef" t="Include" />
+          <e p="ui_inventory_slot.cs" t="Include" />
           <e p="with_positive_vertical_input.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
@@ -58,10 +61,15 @@
             <e p="CrossHair.cs" t="Include" />
             <e p="CrosshairDefinition.cs" t="Include" />
             <e p="Hotbar.cs" t="Include" />
+            <e p="Inventory" t="Include">
+              <e p="UIInventoryPanel.cs" t="Include" />
+              <e p="UIInventorySlot.cs" t="Include" />
+            </e>
             <e p="PauseCanvas.cs" t="Include" />
             <e p="PlayButton.cs" t="Include" />
             <e p="RestartButton.cs" t="Include" />
             <e p="Slot.cs" t="Include" />
+            <e p="UIBinding.cs" t="Include" />
           </e>
         </e>
         <e p="Tests" t="Include">

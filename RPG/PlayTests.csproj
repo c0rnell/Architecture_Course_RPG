@@ -62,7 +62,10 @@
      <Compile Include="Assets\PlayTests\a_moving_cude.cs" />
      <Compile Include="Assets\PlayTests\entity_state_machine.cs" />
      <Compile Include="Assets\PlayTests\game_state_machine.cs" />
+     <Compile Include="Assets\PlayTests\inventory.cs" />
+     <Compile Include="Assets\PlayTests\inventory_panel.cs" />
      <Compile Include="Assets\PlayTests\moving_into_an_item.cs" />
+     <Compile Include="Assets\PlayTests\ui_inventory_slot.cs" />
      <Compile Include="Assets\PlayTests\with_positive_vertical_input.cs" />
      <None Include="Assets\PlayTests\PlayTests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
