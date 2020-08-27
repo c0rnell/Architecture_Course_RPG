@@ -1,24 +1,43 @@
-
+using System.Linq;
 using NUnit.Framework;
 using UnityEditor;
 using UnityEngine;
 using Assert = UnityEngine.Assertions.Assert;
 
+public class ui_selection_cursor
+{
+    [Test]
+    public void with_no_item_selected_shows_no_icon()
+    {
+        var uiCursor = inventory_helpers.GetSelectionCursor();
+        Assert.IsFalse(uiCursor.IconVisible);
+    }
+    
+    [Test]
+    public void with_item_selected_shows_icon()
+    {
+        var inventoryPanel = inventory_helpers.GetInventoryPanelWithItems(1);
+        var uiCursor = inventory_helpers.GetSelectionCursor();
+        inventoryPanel.Slots.First().OnPointerClick(null);
+        
+        Assert.IsTrue(uiCursor.IconVisible);
+    }
+}
 
-public class inventory_panel
+    public class inventory_panel
     {
         [Test] 
         public void has_25_slots()
         {
-            var inventoryPanel = GetInventoryPanel();
+            var inventoryPanel = inventory_helpers.GetInventoryPanelWithItems();
             Assert.AreEqual(Inventory.DefaultInventorySize, inventoryPanel.SlotCount);
         }
         
         [Test]
         public void bound_to_empty_inventory_has_all_slots_empty()
         {
-            var inventoryPanel = GetInventoryPanel();
-            var invnetory = GetInventory(0);
+            var inventoryPanel = inventory_helpers.GetInventoryPanelWithItems();
+            var invnetory = inventory_helpers.GetInventory(0);
 
             inventoryPanel.Bind(invnetory);
 
@@ -31,10 +50,10 @@ public class inventory_panel
         [Test]
         public void bound_to_inventory_with_one_item_fills_only_first_slot()
         {
-            var inventoryPanel = GetInventoryPanel();
-            var invnetory = GetInventory(1);
+            var inventoryPanel = inventory_helpers.GetInventoryPanelWithItems();
+            var invnetory = inventory_helpers.GetInventory(1);
 
-            var item= GetItem();
+            var item= inventory_helpers.GetItem();
             invnetory.Pickup(item);
             
             Assert.IsTrue(inventoryPanel.Slots[0].IsEmpty);
@@ -47,8 +66,8 @@ public class inventory_panel
         [Test]
         public void bound_to_inventory_fills_slot_for_each_item([NUnit.Framework.Range(0, 25)] int numberOfItems)
         {
-            var inventoryPanel = GetInventoryPanel();
-            var invnetory = GetInventory(numberOfItems);
+            var inventoryPanel = inventory_helpers.GetInventoryPanelWithItems();
+            var invnetory = inventory_helpers.GetInventory(numberOfItems);
             
             foreach (UIInventorySlot slot in inventoryPanel.Slots)
             {
@@ -68,10 +87,10 @@ public class inventory_panel
         [Test]
         public void places_item_in_slot_when_item_added_to_inventory()
         {
-            var inventoryPanel = GetInventoryPanel();
-            var invnetory = GetInventory();
+            var inventoryPanel = inventory_helpers.GetInventoryPanelWithItems();
+            var invnetory = inventory_helpers.GetInventory();
 
-            var item = GetItem();
+            var item = inventory_helpers.GetItem();
 
             inventoryPanel.Bind(invnetory);
 
@@ -85,7 +104,7 @@ public class inventory_panel
         [Test]
         public void bound_to_null_inventory_has_empty_slots()
         {
-            var inventoryPanel = GetInventoryPanel();
+            var inventoryPanel = inventory_helpers.GetInventoryPanelWithItems();
             inventoryPanel.Bind(null);
             
             foreach (UIInventorySlot slot in inventoryPanel.Slots)
@@ -97,8 +116,8 @@ public class inventory_panel
         [Test]
         public void bound_to_valid_inventory_then_bound_to_null_inventory_has_empty_slots()
         {
-            var inventoryPanel = GetInventoryPanel();
-            var invventory = GetInventory(1);
+            var inventoryPanel = inventory_helpers.GetInventoryPanelWithItems();
+            var invventory = inventory_helpers.GetInventory(1);
             inventoryPanel.Bind(invventory);
             
             inventoryPanel.Bind(null);
@@ -111,8 +130,8 @@ public class inventory_panel
         [Test]
         public void updates_slots_when_items_are_moved()
         {
-            var inventoryPanel = GetInventoryPanel();
-            var invventory = GetInventory(1);
+            var inventoryPanel = inventory_helpers.GetInventoryPanelWithItems();
+            var invventory = inventory_helpers.GetInventory(1);
             inventoryPanel.Bind(invventory);
             
             invventory.Move(0, 4);
@@ -120,15 +139,18 @@ public class inventory_panel
             Assert.AreEqual(invventory.GetItemInSlot(4), inventoryPanel.Slots[4].Item);
         }
         
+    }
 
-        private Item GetItem()
+    public static class inventory_helpers
+    {
+        public static Item GetItem()
         {
             var gameObjects = new GameObject("Item", typeof(SphereCollider));
             return gameObjects.AddComponent<Item>();
         }
         
-        private Inventory GetInventory(int numberOfItems = 0)
-         {
+        public static Inventory GetInventory(int numberOfItems = 0)
+        {
             var inventory = new GameObject("Inventory").AddComponent<Inventory>();
             for (int i = 0; i < numberOfItems; i++)
             {
@@ -137,11 +159,19 @@ public class inventory_panel
             }
 
             return inventory;
-         }
-
-        public static UIInventoryPanel GetInventoryPanel()
+        }
+        public static UIInventoryPanel GetInventoryPanelWithItems(int numberOfItems = 0)
         {
             var prefab = AssetDatabase.LoadAssetAtPath<UIInventoryPanel>("Assets/Prefabs/UI/InventoryPanel.prefab");
+            var panel = GameObject.Instantiate(prefab);
+            var inventory = GetInventory(numberOfItems);
+            panel.Bind(inventory);
+            return panel;
+        }
+
+        public static UISelectionCursor GetSelectionCursor()
+        {
+            var prefab = AssetDatabase.LoadAssetAtPath<UISelectionCursor>("Assets/Prefabs/UI/SelectionCursor.prefab");
             return GameObject.Instantiate(prefab);
         }
     }
